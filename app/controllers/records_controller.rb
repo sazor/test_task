@@ -5,7 +5,6 @@ class RecordsController < ActionController::Base
   end
 
   def import
-    Utils::RecordParser.new.run
-    redirect_to root
+    ParserWorker.perform_async
   end
 end

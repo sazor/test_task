@@ -5,6 +5,12 @@
 .records-header {
   text-align: center;
 }
+.records-header h1 {
+  margin-bottom: 0px;
+}
+.records-header .import-btn {
+  margin-bottom: 10px;
+}
 .pagination {
   text-align: center;
   margin-top: 10px;

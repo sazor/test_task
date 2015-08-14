@@ -1,6 +1,6 @@
 div.records-header
   h1 Records
-  = link_to "Import", records_import_path
+  = link_to "Import", records_import_path, class: "import-btn mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect", remote: true
 table class="records-table mdl-data-table mdl-js-data-table"
   tr
     th.name class="mdl-data-table__cell--non-numeric" = "Name"

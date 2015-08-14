@@ -54,8 +54,10 @@ gem 'nokogiri'
 gem 'httparty'
 gem 'will_paginate'
 gem 'slim'
+gem 'sidekiq'
 
 source 'https://rails-assets.org' do
   gem 'rails-assets-material-design-lite'
+  gem 'rails-assets-messenger'
 end
 

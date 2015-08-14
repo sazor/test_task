@@ -14,4 +14,5 @@
 //= require jquery_ujs
 //= require turbolinks
 //= require material-design-lite
+//= require messenger
 //= require_tree .
