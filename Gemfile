@@ -43,11 +43,19 @@ group :development, :test do
   gem 'spring'
 
   gem 'rspec-rails', '~> 3.0'
+end
 
+group :test do
   gem 'webmock'
   gem 'vcr'
 end
 
 gem 'nokogiri'
 gem 'httparty'
+gem 'will_paginate'
+gem 'slim'
+
+source 'https://rails-assets.org' do
+  gem 'rails-assets-material-design-lite'
+end
 

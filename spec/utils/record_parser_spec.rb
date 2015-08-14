@@ -22,6 +22,7 @@ describe Utils::RecordParser, vcr: { record: :new_episodes } do
 
       it "creates new records which fields was empty" do
         expect(Record.where("name = 'Vadim Bogdanov' and credential = 'PfMP'").exists?).to be true
+        expect(Record.where("name = 'Vadim Bogdanov' and credential = 'PMP'").exists?).to be true
       end
 
       context "when table is actual" do
