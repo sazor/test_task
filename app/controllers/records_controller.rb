@@ -1,7 +1,7 @@
 class RecordsController < ActionController::Base
   def index
     if params[:search]
-      @records = search(params).results
+      @records = search.results
     else
       @records = Record.page(params[:page])
     end
@@ -13,7 +13,7 @@ class RecordsController < ActionController::Base
   end
 
   private
-  def search(params)
+  def search
     Record.search do
       fulltext params[:search]
       paginate page: params[:page]
