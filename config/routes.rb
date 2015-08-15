@@ -7,7 +7,7 @@ Rails.application.routes.draw do
 
   get 'records' => 'records#index'
   get 'records/import' => 'records#import', as: :records_import
-
+  
   # Example of regular route:
   #   get 'products/:id' => 'catalog#view'
 

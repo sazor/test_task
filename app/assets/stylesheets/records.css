@@ -1,18 +1,14 @@
 .records-table {
+  margin-top: 10px;
   margin-left: auto;
   margin-right: auto;
-}
-.records-header {
-  text-align: center;
-}
-.records-header h1 {
-  margin-bottom: 0px;
-}
-.records-header .import-btn {
-  margin-bottom: 10px;
 }
 .pagination {
   text-align: center;
   margin-top: 10px;
   font-size: 18px;
+}
+.root-link {
+  color: #fff;
+  text-decoration: none;
 }

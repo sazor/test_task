@@ -50,12 +50,21 @@ group :test do
   gem 'vcr'
 end
 
+# Parser
 gem 'nokogiri'
 gem 'httparty'
+
 gem 'will_paginate'
 gem 'slim'
+
+# Background jobs
 gem 'sidekiq'
 gem 'whenever', require: false
+
+# Full-text search
+gem 'sunspot_rails'
+gem 'sunspot_solr'
+gem 'progress_bar'
 
 source 'https://rails-assets.org' do
   gem 'rails-assets-material-design-lite'

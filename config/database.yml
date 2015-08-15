@@ -81,5 +81,5 @@ test:
 production:
   <<: *default
   database: parser_production
-  username: parser
-  password: <%= ENV['PARSER_DATABASE_PASSWORD'] %>
+  username: sazor
+  password: edam29a
