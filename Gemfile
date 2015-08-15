@@ -55,6 +55,7 @@ gem 'httparty'
 gem 'will_paginate'
 gem 'slim'
 gem 'sidekiq'
+gem 'whenever', require: false
 
 source 'https://rails-assets.org' do
   gem 'rails-assets-material-design-lite'
