@@ -82,4 +82,4 @@ production:
   <<: *default
   database: parser_production
   username: sazor
-  password: edam29a
+  password: ENV['DATABASE_PASSWORD']
