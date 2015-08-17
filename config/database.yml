@@ -81,5 +81,5 @@ test:
 production:
   <<: *default
   database: parser_production
-  username: sazor
+  username: deploy
   password: ENV['DATABASE_PASSWORD']
