@@ -67,6 +67,7 @@ gem 'sunspot_solr'
 gem 'progress_bar'
 
 gem 'puma'
+gem 'sprockets', '~> 2.8'
 
 group :development do
     gem 'capistrano',         require: false
